@@ -22,7 +22,10 @@ public class CountryResponseWrapper extends BaseResponse {
     }
 
     public static CountryResponseWrapper successResponse(CountryResponse countryResponse) {
-        return CountryResponseWrapper.builder().countryResponse(countryResponse).build();
+        return CountryResponseWrapper.builder()
+                .success(true)
+                .countryResponse(countryResponse)
+                .build();
     }
 
     public static CountryResponseWrapper failureResponse(String errorMessage) {

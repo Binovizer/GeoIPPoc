@@ -25,6 +25,7 @@ public class CityResponseWrapper extends BaseResponse {
 
     public static CityResponseWrapper successResponse(String city, String state, String country) {
         return CityResponseWrapper.builder()
+                .success(true)
                 .city(city)
                 .state(state)
                 .country(country)
