@@ -7,7 +7,7 @@ import lombok.experimental.SuperBuilder;
 
 /**
  * @author nadeem
- * @version $Id: CountryResponseWrapper.java, v 0.1 2020-06-15 7:31 PM
+ * @version $Id: CountryResponseWrapper.java, v 0.1
  */
 @Getter
 @SuperBuilder

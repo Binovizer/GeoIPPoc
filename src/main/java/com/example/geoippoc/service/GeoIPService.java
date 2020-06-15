@@ -5,7 +5,7 @@ import com.example.geoippoc.dto.response.CountryResponseWrapper;
 
 /**
  * @author nadeem
- * @version $Id: GeoIPService.java, v 0.1 2020-06-15 7:13 PM
+ * @version $Id: GeoIPService.java, v 0.1
  */
 public interface GeoIPService {
 

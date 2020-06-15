@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * @author nadeem
- * @version $Id: MaxMindGeoIPService.java, v 0.1 2020-06-15 7:36 PM
+ * @version $Id: MaxMindGeoIPService.java, v 0.1
  */
 @Slf4j
 @Service

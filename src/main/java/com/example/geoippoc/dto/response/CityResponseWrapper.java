@@ -6,7 +6,7 @@ import lombok.experimental.SuperBuilder;
 
 /**
  * @author nadeem
- * @version $Id: CityResponseWrapper.java, v 0.1 2020-06-15 7:32 PM
+ * @version $Id: CityResponseWrapper.java, v 0.1
  */
 @Getter
 @SuperBuilder

@@ -16,7 +16,7 @@ import java.net.InetAddress;
 
 /**
  * @author nadeem
- * @version $Id: MaxMindGeoIPSearchWebStrategy.java, v 0.1 2020-06-15 7:45 PM
+ * @version $Id: MaxMindGeoIPSearchWebStrategy.java, v 0.1
  */
 @Slf4j
 @Service("maxMindGeoIPSearchWebStrategy")

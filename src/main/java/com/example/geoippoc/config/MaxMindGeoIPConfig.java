@@ -13,7 +13,7 @@ import java.io.IOException;
 
 /**
  * @author nadeem
- * @version $Id: MaxMindGeoIPConfig.java, v 0.1 2020-06-15 7:16 PM
+ * @version $Id: MaxMindGeoIPConfig.java, v 0.1
  */
 @Configuration
 @ConditionalOnProperty(prefix = MaxMindGeoIPProperties.PROPERTY_PREFIX, value = {"enabled"}, matchIfMissing = true)

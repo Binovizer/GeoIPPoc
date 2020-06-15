@@ -5,7 +5,7 @@ import com.example.geoippoc.dto.response.CountryResponseWrapper;
 
 /**
  * @author nadeem
- * @version $Id: MaxMindGeoIPSearchStrategy.java, v 0.1 2020-06-15 7:43 PM
+ * @version $Id: MaxMindGeoIPSearchStrategy.java, v 0.1
  */
 public interface MaxMindGeoIPSearchStrategy {
 

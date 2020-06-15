@@ -2,11 +2,10 @@ package com.example.geoippoc.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.core.io.Resource;
 
 /**
  * @author nadeem
- * @version $Id: MaxMindGeoIPConfigProperties.java, v 0.1 2020-06-15 7:19 PM
+ * @version $Id: MaxMindGeoIPConfigProperties.java, v 0.1
  */
 @Data
 @ConfigurationProperties(prefix = MaxMindGeoIPProperties.PROPERTY_PREFIX)

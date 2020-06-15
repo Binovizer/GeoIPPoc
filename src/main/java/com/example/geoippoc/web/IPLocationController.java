@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author nadeem
- * @version $Id: IPLocationController.java, v 0.1 2020-06-15 7:10 PM
+ * @version $Id: IPLocationController.java, v 0.1
  */
 @RestController
 @RequestMapping("/search")
