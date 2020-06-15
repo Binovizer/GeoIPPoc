@@ -1,7 +1,7 @@
 package com.example.geoippoc.web;
 
-import com.example.geoippoc.dto.CityResponseWrapper;
-import com.example.geoippoc.dto.CountryResponseWrapper;
+import com.example.geoippoc.dto.response.CityResponseWrapper;
+import com.example.geoippoc.dto.response.CountryResponseWrapper;
 import com.example.geoippoc.service.GeoIPService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

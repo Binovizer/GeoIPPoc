@@ -1,7 +1,7 @@
 package com.example.geoippoc.service.impl;
 
-import com.example.geoippoc.dto.CityResponseWrapper;
-import com.example.geoippoc.dto.CountryResponseWrapper;
+import com.example.geoippoc.dto.response.CityResponseWrapper;
+import com.example.geoippoc.dto.response.CountryResponseWrapper;
 import com.example.geoippoc.service.GeoIPService;
 import com.example.geoippoc.service.MaxMindGeoIPSearchStrategy;
 import lombok.extern.slf4j.Slf4j;

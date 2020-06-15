@@ -1,4 +1,4 @@
-package com.example.geoippoc.dto;
+package com.example.geoippoc.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.maxmind.geoip2.model.CountryResponse;

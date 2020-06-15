@@ -1,7 +1,7 @@
 package com.example.geoippoc.service;
 
-import com.example.geoippoc.dto.CityResponseWrapper;
-import com.example.geoippoc.dto.CountryResponseWrapper;
+import com.example.geoippoc.dto.response.CityResponseWrapper;
+import com.example.geoippoc.dto.response.CountryResponseWrapper;
 
 /**
  * @author nadeem
