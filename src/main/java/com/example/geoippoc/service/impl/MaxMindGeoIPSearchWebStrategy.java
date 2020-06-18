@@ -31,7 +31,10 @@ public class MaxMindGeoIPSearchWebStrategy implements MaxMindGeoIPSearchStrategy
         try {
             InetAddress ipAddress = InetAddress.getByName(ipString);
 
+            log.info("Calling webservice for the country data.");
+            long startTime = System.currentTimeMillis();
             CountryResponse countryResponse = client.country(ipAddress);
+            log.info("Received country data in {}ms.", System.currentTimeMillis() - startTime);
 
             return CountryResponseWrapper.successResponse(countryResponse);
         } catch (IOException | GeoIp2Exception e) {
@@ -45,7 +48,11 @@ public class MaxMindGeoIPSearchWebStrategy implements MaxMindGeoIPSearchStrategy
         try {
             InetAddress ipAddress = InetAddress.getByName(ipString);
 
+            log.info("Calling webservice for the city data.");
+            long startTime = System.currentTimeMillis();
             CityResponse cityResponse = client.city(ipAddress);
+            log.info("Received city data in {}ms.", System.currentTimeMillis() - startTime);
+
             String city = cityResponse.getCity().getName();
             String state = cityResponse.getMostSpecificSubdivision().getName();
             String country = cityResponse.getCountry().getName();

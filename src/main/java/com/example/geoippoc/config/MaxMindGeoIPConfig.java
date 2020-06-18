@@ -1,5 +1,6 @@
 package com.example.geoippoc.config;
 
+import com.maxmind.db.CHMCache;
 import com.maxmind.geoip2.DatabaseReader;
 import com.maxmind.geoip2.WebServiceClient;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +27,7 @@ public class MaxMindGeoIPConfig {
     @Bean
     public DatabaseReader getDatabaseReader() throws IOException {
         File dbFile = new File(properties.getGeolite2CityDbFilePath());
-        return new DatabaseReader.Builder(dbFile).build();
+        return new DatabaseReader.Builder(dbFile).withCache(new CHMCache()).build();
     }
 
     @Bean
